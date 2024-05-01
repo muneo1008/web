@@ -1,6 +1,9 @@
 <!doctype html>
 <html>
 <head>
+  <link rel="stylesheet" href="./node_modules/nes.css/css/nes.min.css">
+  <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
 <title>WEB1 - html</title>
 <meta charset="utf-8">
 </head>
@@ -21,17 +24,33 @@
 </ol>
 
 <h2>table tag</h2>
-<table border="1">
-            <caption>표제목</caption>
-            <tr>
-                <th>제목셀1</th>
-                <th>제목셀2</th>
-            </tr>
-            <tr>
-                <td>일반칸1</td>
-                <td>일반칸2</td>
-            </tr>
-        </table>
+<div class="nes-table-responsive">
+  <table class="nes-table is-bordered is-dark">
+    <thead>
+      <tr>
+        <th>Table.is-bordered</th>
+        <th>Table.is-centered</th>
+        <th>Table.is-centered</th>
+        <th>Table.is-centered</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Thou hast had a good morning</td>
+        <td>Thou hast had a good afternoon</td>
+        <td>Thou hast had a good evening</td>
+        <td>Thou hast had a good night</td>
+      </tr>
+      <tr>
+        <td>Thou hast had a good morning</td>
+        <td>Thou hast had a good afternoon</td>
+        <td>Thou hast had a good evening</td>
+        <td>Thou hast had a good night</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 
 <h2><a href="https://www.w3.org/TR/2011/WD-html5-20110405/" target="_blank" title="W3C">HTML</a>이란 무엇인가?</h2>
 <strong><u>웹</u> 페이지</strong> 만들기
