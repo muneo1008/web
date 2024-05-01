@@ -3,5 +3,7 @@
   src: url('DungGeunMo.ttf') format('truetype');
 }
 body {
+  padding: 10px;
   font-family: 'DungGeunMo', sans-serif;
+  background-color: antiquewhite;
 }
