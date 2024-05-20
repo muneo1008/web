@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'DungGeunMo';
+    src: url('DungGeunMo.ttf') format('truetype');
+  }
+  body {
+    font-family: 'DungGeunMo', sans-serif;
+  }
+  h1{
+    border: 5px solid red;
+    padding: 20px;
+    margin: 20px;
+    display: block;
+    width: 100px;
+  }
