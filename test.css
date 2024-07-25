@@ -6,9 +6,10 @@
     font-family: 'DungGeunMo', sans-serif;
   }
   h1{
-    border: 5px solid red;
+    border-bottom: 2px solid gray;
+    font-size: 400%;
+    text-align: center;
     padding: 20px;
     margin: 20px;
     display: block;
-    width: 100px;
   }
